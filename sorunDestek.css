@@ -1,0 +1,93 @@
+.b{
+    margin: 8%;
+    background-image: url(bg2.png);
+    
+}
+.frm{
+    position: absolute;
+    left: 30%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1%;
+    border-radius: 15px;
+    top: 25%;
+}
+.a1{
+    color: white;
+    font-style: normal;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FCA311;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 20%;
+    text-decoration: none;
+}
+.a1:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+
+.a2{
+    color: white;
+    font-style: normal;
+    position: absolute;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: #FCA311;
+    padding: 1%;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 70%;
+    text-decoration: none;
+}
+.a2:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 1%;
+    left: 2.3%;
+    border-radius: 15px;
+}
+.mBack:hover{
+    transition: 480ms;
+    background-color: green;
+}
+
+@media screen and (max-width: 425px) {
+    .b{
+        margin: 8%;
+        background-image: none;
+        background-color:rgba(0, 0, 0, 0.263);
+    }
+    
+    .a1{
+        top: 3%;
+        font-size: 20px;
+        left: 10%;
+    }
+    .a2{
+        top: 3%;
+        font-size: 20px;
+        left: 60%;
+    }
+    .frm{
+        width: 80%;
+        left: 10%;
+        top: 25%;
+    }
+}

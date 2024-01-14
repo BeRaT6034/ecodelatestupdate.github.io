@@ -1,0 +1,212 @@
+.b{
+    margin: 8% !important;
+    background-color: rgba(0, 0, 0, 0.226) !important;
+    background-image: url(bg2.png);
+
+}
+.urunInfor{
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    position: absolute;
+    left: 35%;
+    margin-right: 2% !important;
+    margin-bottom: 0 !important;
+    top: 12%;
+    font-size: 25px;
+}
+.urunName{
+    color: white !important;
+    font-family:'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    position: absolute;
+    padding: 1% !important;
+    font-size: 25px;
+    width: 10%;
+    text-align: center;
+    left: 13%;
+    top: 86%;
+
+}
+.urun2{
+    width: 27%;
+    margin: 5% ;
+    margin-left: 0%;
+    margin-top: 0;
+
+}
+
+.a1{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px;
+    font-size: 20px;
+    left: 18%;
+    text-decoration: none !important;
+}
+.a1:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+
+.a2{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 18px;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 42%;
+    text-decoration: none !important;
+}
+.a2:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+.a3{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 2%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 77%;
+    text-decoration: none !important;
+}
+.a3:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+.a4{
+    color: white !important;
+    font-style: normal !important;
+    position: absolute;
+    top: 58%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #FCA311 !important;
+    padding: 1% !important;
+    border-radius: 15px !important;
+    font-size: 20px;
+    left: 62%;
+    text-decoration: none !important;
+}
+.a4:hover{
+
+    transition: 480ms;
+    transform: scale(1.1);
+    background-color: green;
+    font-style: italic;
+
+}
+.mBack{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 95%;
+    height: 80px;
+    position: absolute;
+    top: 1%;
+    left: 2.3%;
+    border-radius: 15px;
+}
+.mBack:hover{
+    transition: 480ms;
+    background-color: green;
+
+}
+
+@media screen and (max-width: 425px){
+
+    .b{
+        background-image:none;
+        background-color:rgba(0, 0, 0, 0.263);
+    }
+
+    .urunInfor{
+        color: white;
+        font-family:'Roboto Mono', monospace;
+        background-color: #FCA311;
+        padding: 1%;
+        position: absolute;
+        left: 59%;
+        margin-right: 2% ;
+        margin-bottom: 0;
+        top: 13%;
+        font-size: 15px;
+        width: 37%;
+
+    }
+    .urun2{
+        width: 50%;
+        position: absolute;
+        top: 18%;
+        left: 5%;
+    
+    }
+    .urunName{
+        color: white;
+        font-family:'Roboto Mono', monospace ;
+        background-color: #FCA311;
+        position: absolute;
+        padding: 1% ;
+        font-size: 25px;
+        width: 30%;
+        text-align: center;
+        left: 13%;
+        top: 55%;
+    
+    }
+
+    .a1{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 5%;
+    }
+
+    .a2{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 28%;
+    }
+
+    .a3{
+        position: absolute;
+        top: 2%;
+        border-radius: 15px;
+        font-size: 15px;
+        left: 72%;
+    }
+
+    .a4{
+        position:absolute;
+        top: 65%;
+        font-size: 20px;
+        left: 67%;
+    }
+}
